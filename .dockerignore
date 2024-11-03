@@ -1,0 +1,10 @@
+/.dockerignore
+/compose.yml
+/docker/
+/.gitignore
+/.env
+.git
+.flake8
+README.md
+CHANGELOG.md
+.pre-commit-config.yaml

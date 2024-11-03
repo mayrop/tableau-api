@@ -1,0 +1,10 @@
+.idea
+*.pyc
+*.p12
+*.pem
+/lib
+/-lib
+.install.stamp
+__pycache__/
+.venv
+.env

@@ -1,0 +1,12 @@
+[flake8]
+exclude =
+    .*/,
+    __pycache__,
+    .git,
+    *.pyc,
+    .venv
+max-complexity = 18
+# Managed by pylint
+max-line-length = 99999
+select = B,C,E,F,W,T4,B9
+ignore = E203, E231, E266, E501, W503

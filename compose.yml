@@ -1,0 +1,12 @@
+services:
+    # docker compose run --rm --service-ports app bash 
+    app:
+        image: mayrop/tableau:${ENV}
+        env_file: .env
+        build:
+            context: .
+            dockerfile: docker/Dockerfile
+            target: ${ENV}
+        volumes:
+            - .:/app
+        restart: on-failure
